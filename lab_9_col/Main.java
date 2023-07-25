@@ -8,7 +8,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter your shopping list, the number of products and their price. To close the list, enter \"exit\"");
+        System.out.println("Enter  your shopping list, the number of products and their price. To close the list, enter \"exit\"");
 
         while (sc.hasNext()) {
             String s = sc.nextLine();
