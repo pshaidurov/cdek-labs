@@ -49,7 +49,7 @@ public class Main {
 
             String[] parts = s.split(" ");
 
-            if(check.checkLength(parts)){
+            if (check.checkLength(parts)) {
                 continue;
             }
 
@@ -92,7 +92,7 @@ public class Main {
         }
 
         String[] sortedProducts = new String[amountOfProducts];
-        System.arraycopy(masOfProducts, 0, sortedProducts,0, amountOfProducts);
+        System.arraycopy(masOfProducts, 0, sortedProducts, 0, amountOfProducts);
 
         Arrays.sort(sortedProducts, new Comparator<>() {
             @Override
@@ -109,14 +109,14 @@ public class Main {
         System.out.println(Arrays.toString(sortedProducts));
 
         long sum = 0;
-        for(int i = 0; i < amountOfProducts; i++) {
+        for (int i = 0; i < amountOfProducts; i++) {
             sum += (long) masOfCosts[i] * masOfCounts[i];
         }
 
         System.out.println("Final order price: " + sum);
 
         double amountOfProducts1 = amountOfProducts;
-        if(amountOfProducts1 > 3){
+        if (amountOfProducts1 > 3) {
             amountOfProducts1 = 3;
         }
 

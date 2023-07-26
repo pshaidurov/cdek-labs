@@ -1,6 +1,7 @@
 package lab_7_col;
 
 import java.util.*;
+
 public class Main {
     Scanner sc = new Scanner(System.in);
 
@@ -22,13 +23,5 @@ public class Main {
         mrArrayList.show();
         mrArrayList.get(2);
 
-        /*Scanner sc = new Scanner(System.in);
-
-        String operation = sc.nextLine();
-
-        if (operation.equals("add")){
-            int oper = Integer.parseInt(operation);
-            mrArrayList.add();
-        }*/
     }
 }

@@ -1,6 +1,6 @@
 package lab_8_col;
 
-class Entry<K, V>{
+class Entry<K, V> {
     Object key;
     Object val;
 
@@ -16,7 +16,7 @@ class Entry<K, V>{
         return val;
     }
 
-    public void setVal(Object val){
+    public void setVal(Object val) {
         this.val = val;
     }
 
@@ -32,15 +32,15 @@ class Entry<K, V>{
     }
 
     @Override
-    public boolean equals(Object o){
-        if (this == o){
+    public boolean equals(Object o) {
+        if (this == o) {
             return true;
         }
         if (o == null || this.getClass().getName() != o.getClass().getName()) {
             return false;
         }
-        Entry e = (Entry)o;
-        if (this.key == e.key){
+        Entry e = (Entry) o;
+        if (this.key == e.key) {
             return true;
         }
         return false;

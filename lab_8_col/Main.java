@@ -2,6 +2,7 @@ package lab_8_col;
 
 import java.util.Map;
 import java.util.HashMap;
+
 public class Main {
     public static void main(String[] args) {
         Map<Integer, String> persons = new HashMap<Integer, String>();
@@ -19,9 +20,6 @@ public class Main {
         System.out.println(persons.remove(789123));
         System.out.println();
         System.out.println(persons.values());
-
-
-
 
 
     }
